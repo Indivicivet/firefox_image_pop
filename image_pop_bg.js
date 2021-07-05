@@ -15,7 +15,9 @@ browser.contextMenus.onClicked.addListener(
 					file: "image_pop_thistab.js"
 				}).then(
 					(result) => {
-						browser.tabs.create({url: result[0]});  // url: ""
+						for (const url of result[0]) {
+							browser.tabs.create({url: url});
+						}
 					}
 				);
 				break;

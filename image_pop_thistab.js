@@ -1,1 +1,3 @@
-"http://www.google.com";
+let urls = ["http://www.google.com"];
+
+urls;
