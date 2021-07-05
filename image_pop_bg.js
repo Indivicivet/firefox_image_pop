@@ -12,6 +12,7 @@ browser.contextMenus.onClicked.addListener(
 		switch (info.menuItemId) {
 			case "image_pop":
 				console.log("pop!")
+				browser.tabs.create({});  // url: ""
 				break;
 		}
 	}
