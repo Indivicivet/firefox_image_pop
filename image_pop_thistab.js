@@ -1,3 +1,1 @@
-let urls = ["http://www.google.com"];
-
-urls;
+[...document.images].map((im) => {return im.src});
