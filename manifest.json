@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name": "Image Pop",
+	"version": "0.1",
+
+	"description": "Adds support to pop out images from webpages in a new tab",
+
+	"background": {"scripts": ["image_pop_bg.js"]},
+
+	"permissions": ["contextMenus"]
+}
