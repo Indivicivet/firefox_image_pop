@@ -7,5 +7,5 @@
 
 	"background": {"scripts": ["image_pop_bg.js"]},
 
-	"permissions": ["contextMenus"]
+	"permissions": ["contextMenus", "activeTab"]
 }
