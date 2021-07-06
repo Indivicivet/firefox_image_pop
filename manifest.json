@@ -5,6 +5,8 @@
 
 	"description": "Adds support to pop out images from webpages in a new tab",
 
+	"browser_specific_settings": {"gecko": {"id": "image_pop@example.com"}},
+
 	"background": {"scripts": ["image_pop_bg.js"]},
 
 	"permissions": ["contextMenus", "activeTab"]
