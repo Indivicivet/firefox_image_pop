@@ -1,5 +1,6 @@
+// todo this works for new tabs but badly for flicked! grab from meta??
 script_results = [];
-for (const script of document.getElementsByTagName("script")) {
+for (const script of document.querySelectorAll("script,meta")) {
 	urls = script.text.match(/"https[^"]+\.(?:jpg|jpeg|png|webp|gif|mp4|webm|wmv)"/i)
 	if (urls) {
 		script_results.push(
